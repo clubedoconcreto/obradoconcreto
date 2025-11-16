@@ -61,7 +61,7 @@ header {
 .hero {
   height: 100vh;
   background: linear-gradient(rgba(15, 17, 21, 0.7), rgba(15, 17, 21, 0.9)),
-    url("./assets/caminhao-betoneira-concreto.png") center/cover;
+    url("./caminhao-betoneira-concreto.png") center/cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -129,7 +129,7 @@ section {
   background: var(--dark-card);
   border-top: 2px solid var(--accent);
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(./assets/logo-banner.png);
+    url(./logo-banner.png);
   background-size: cover;
 }
 @media screen and (max-width: 768px) {
@@ -213,3 +213,4 @@ footer {
 strong {
   color: var(--accent);
 }
+
